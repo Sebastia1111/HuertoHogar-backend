@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package com.huertohogar.tienda.model;
 
 import jakarta.persistence.*;
@@ -24,3 +25,31 @@ public class Producto {
     private Integer stock;
 
 }
+=======
+package com.huertohogar.tienda.model;
+
+import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+
+
+@Entity 
+@Table(name = "productos")
+@Data 
+@NoArgsConstructor 
+@AllArgsConstructor 
+public class Producto {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    private String nombre;
+    private String descripcion;
+    private Double precio;
+    private Integer stock;
+
+}
+>>>>>>> b065651850294b39a3182b1afc518b359affaf29
