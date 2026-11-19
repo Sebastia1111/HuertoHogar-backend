@@ -9,7 +9,8 @@ version = '0.0.1-SNAPSHOT'
 
 java {
 	toolchain {
-		languageVersion = JavaLanguageVersion.of(21)
+		// Java 21 por defecto; con otro JDK instalado: ./gradlew bootRun -PjavaVersion=25
+		languageVersion = JavaLanguageVersion.of(Integer.parseInt((project.findProperty('javaVersion') ?: '21').toString()))
 	}
 }
 
