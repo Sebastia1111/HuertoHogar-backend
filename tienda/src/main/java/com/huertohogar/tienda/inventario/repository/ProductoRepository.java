@@ -1,6 +1,6 @@
-package com.huertohogar.tienda.repository;
+package com.huertohogar.tienda.inventario.repository;
 
-import com.huertohogar.tienda.model.Producto;
+import com.huertohogar.tienda.inventario.model.Producto;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

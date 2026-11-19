@@ -1,7 +1,7 @@
-package com.huertohogar.tienda.controller;
+package com.huertohogar.tienda.inventario.controller;
 
-import com.huertohogar.tienda.model.Producto;
-import com.huertohogar.tienda.service.ProductoService;
+import com.huertohogar.tienda.inventario.model.Producto;
+import com.huertohogar.tienda.inventario.service.ProductoService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.beans.factory.annotation.Autowired;

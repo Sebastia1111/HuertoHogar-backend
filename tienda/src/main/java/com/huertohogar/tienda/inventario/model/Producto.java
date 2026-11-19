@@ -1,4 +1,4 @@
-package com.huertohogar.tienda.model;
+package com.huertohogar.tienda.inventario.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

@@ -1,7 +1,7 @@
-package com.huertohogar.tienda.service;
+package com.huertohogar.tienda.inventario.service;
 
-import com.huertohogar.tienda.model.Producto;
-import com.huertohogar.tienda.repository.ProductoRepository;
+import com.huertohogar.tienda.inventario.model.Producto;
+import com.huertohogar.tienda.inventario.repository.ProductoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.util.List;
