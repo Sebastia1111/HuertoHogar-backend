@@ -1,1 +1,8 @@
-Set-Content .gitignore -Encoding ascii ".gradle/`n**/.gradle/`n**/build/`n**/bin/`n.idea/`n*.iml`n.vscode/`n.DS_Store"
+.gradle/
+**/.gradle/
+**/build/
+**/bin/
+.idea/
+*.iml
+.vscode/
+.DS_Store
